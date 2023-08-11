@@ -1,0 +1,23 @@
+POST http://localhost:3000/events
+content-type: application/json
+
+{
+   "name": "Hustlers Championship"
+}
+
+###
+GET http://localhost:3000/events
+
+###
+GET http://localhost:3000/events/1
+
+###
+PUT http://localhost:3000/events/1
+content-type: application/json
+
+{
+   "name": "Hustlers Championships",
+}
+
+###
+DELETE http://localhost:3000/events/2
